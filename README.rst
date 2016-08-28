@@ -15,8 +15,7 @@ Quick start
 -----------
 1. Install django-git-submodules::
 
-   pip install django-git-submodule
-
+    pip install django-git-submodule
 
 2. Clone the the package you want on your project root::
 
@@ -24,12 +23,12 @@ Quick start
 
 3. Import the app in your `settings.py`::
 
-   from dj_git_submodule import submodule
-   submodule.add('django-rest-framework')
+    from dj_git_submodule import submodule
+    submodule.add('django-rest-framework')
 
 4. Now you should be able to add the app to `INSTALLED_APPS` and have django find it successfully.
 
 5. If you need to import multiple apps, you can create a file alongside your requirements.txt::
-   from dj_git_submodule import submodule
-   submodule.register('submodules.txt')
+    from dj_git_submodule import submodule
+    submodule.register('submodules.txt')
 
