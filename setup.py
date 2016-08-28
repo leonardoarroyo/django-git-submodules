@@ -2,12 +2,12 @@
 from distutils.core import setup
 
 setup(
-    name='django-submodule',
+    name='django-git-submodules',
     version='0.1.0',
     author=u'Leonardo Arroyo',
     author_email='contato@leonardoarroyo.com',
     packages=['dj_git_submodule'],
-    url='',
+    url='https://github.com/leonardoarroyo/django-git-submodules',
     license='MIT license, see LICENSE.',
     description='Adds packages to syspath so they can be' + \
                 ' used as git submodules instead of pip' + \
