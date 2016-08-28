@@ -8,6 +8,7 @@ setup(
     author_email='contato@leonardoarroyo.com',
     packages=['dj_git_submodule'],
     url='https://github.com/leonardoarroyo/django-git-submodules',
+    download_url = 'https://github.com/leonardoarroyo/django-git-submodules/tarball/0.1.0'
     license='MIT license, see LICENSE.',
     description='Adds packages to syspath so they can be' + \
                 ' used as git submodules instead of pip' + \
