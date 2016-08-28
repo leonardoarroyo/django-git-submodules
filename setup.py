@@ -3,12 +3,12 @@ from distutils.core import setup
 
 setup(
     name='django-git-submodules',
-    version='0.1.2',
+    version='0.1.3',A
     author=u'Leonardo Arroyo',
     author_email='contato@leonardoarroyo.com',
     packages=['dj_git_submodule'],
     url='https://github.com/leonardoarroyo/django-git-submodules',
-    download_url = 'https://github.com/leonardoarroyo/django-git-submodules/tarball/0.1.2',
+    download_url = 'https://github.com/leonardoarroyo/django-git-submodules/tarball/0.1.3',
     license='MIT license, see LICENSE.',
     description='Adds packages to syspath so they can be' + \
                 ' used as git submodules instead of pip' + \
