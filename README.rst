@@ -15,7 +15,7 @@ Quick start
 -----------
 1. Install django-git-submodules::
 
-    pip install django-git-submodule
+    pip install django-git-submodules
 
 2. Clone the the package you want on your project root::
 
