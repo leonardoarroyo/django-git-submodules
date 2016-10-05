@@ -11,3 +11,7 @@ v0.1.3
 v0.1.4
 -----------
 * Fix setup.py syntax error
+
+v0.1.5
+-----------
+* Fix README formatting
