@@ -29,5 +29,6 @@ Quick start
 4. Now you should be able to add the app to `INSTALLED_APPS` and have django find it successfully.
 
 5. If you need to import multiple apps, you can create a file alongside your requirements.txt::
+
     from dj_git_submodule import submodule
     submodule.register('submodules.txt')
