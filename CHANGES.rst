@@ -15,3 +15,7 @@ v0.1.4
 v0.1.5
 -----------
 * Fix README formatting
+
+v0.1.6
+-----------
+* Use sys.path.insert(0, []) instead of sys.path.append([])
