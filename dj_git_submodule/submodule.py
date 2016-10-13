@@ -14,7 +14,6 @@ def add(submodules):
 
   for mod in submodules:
     path = os.path.abspath(os.path.join(PROJECT_ROOT, mod))
-    print(path)
     sys.path.insert(0, path)
 
 def locate(string):

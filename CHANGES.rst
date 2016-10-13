@@ -24,3 +24,7 @@ v0.1.7
 -----------
 * Add submodule.locate
 
+v1.0.0
+-----------
+* Remove debug print
+* Stable release
