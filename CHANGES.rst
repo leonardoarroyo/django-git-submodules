@@ -19,3 +19,8 @@ v0.1.5
 v0.1.6
 -----------
 * Use sys.path.insert(0, []) instead of sys.path.append([])
+
+v0.1.7
+-----------
+* Add submodule.locate
+
