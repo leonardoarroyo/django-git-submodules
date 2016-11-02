@@ -28,3 +28,7 @@ v1.0.0
 -----------
 * Remove debug print
 * Stable release
+
+v1.1.0
+-----------
+* Allows to read any property to build the path, instead of just __file__
