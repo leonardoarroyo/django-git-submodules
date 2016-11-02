@@ -3,8 +3,11 @@ import os
 import __main__
 import glob
 
+prop = '__file__'
+
 def get_project_root():
-  return os.path.dirname(os.path.abspath(__main__.__file__))
+  path = getattr(__main__, prop)
+  return os.path.dirname(os.path.abspath(path))
 
 def add(submodules):
   if not isinstance(submodules, (list, tuple, )):
