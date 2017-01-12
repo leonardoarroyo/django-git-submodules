@@ -31,4 +31,4 @@ Quick start
 5. If you need to import multiple apps, you can use wildcards(through glob)::
 
     from dj_git_submodule import submodule
-    submodule.add(submodule.register('custom-apps-*'))
+    submodule.add(submodule.locate('custom-apps-*'))
