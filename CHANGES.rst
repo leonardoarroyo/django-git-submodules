@@ -32,3 +32,7 @@ v1.0.0
 v1.1.0
 -----------
 * Allows to read any property to build the path, instead of just __file__
+
+v1.1.1
+-----------
+* Fix README.md docs
